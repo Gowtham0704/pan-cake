@@ -5,4 +5,13 @@
 }
 .products{
 display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.product > mat-card > button {
+margin-top: 20px;
+background-color: cornflowerblue;
+border: 2px solid;
+border-color: cornflowerblue;
+border-radius: 5px;
 }
